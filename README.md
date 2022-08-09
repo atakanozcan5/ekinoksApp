@@ -1,7 +1,7 @@
 # ekinoksApp
 Ekinoks Shopping App
 
-"dependencies": {
+"dependencies": {/n
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
