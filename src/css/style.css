@@ -1,0 +1,70 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #ffffff;
+    /* background-image: linear-gradient(#F77D00, #faa34c, #ffce9d, #fff7e6); */
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: SlateBlue;
+    border:  SlateBlue;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  input[type="submit"]:hover {
+    background: rgb(163, 149, 255);
+    border: rgb(163, 149, 255)
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: rgb(255, 251, 247);
+    background-image: linear-gradient(#fff7e6, #ffce9d, #faa34c, #F77D00);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(255, 115, 0, 0.2), 0 6px 20px 0 rgba(255, 115, 0, 0.2);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: rgb(68, 0, 255);
+    font-size: 12px;
+  }
+  
+  .title {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
